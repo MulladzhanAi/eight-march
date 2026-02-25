@@ -1,17 +1,16 @@
 export const PRIZES = [
-  { id: 1, name: "Твоя нефорская чиби версия", image: "/prizes/chibi1.jpg", rarity: "legendary" },
-  { id: 2, name: "Твоя Иссык Кульская версия", image: "/prizes/chibi2.jpg", rarity: "common" },
-  { id: 3, name: "На оригинальной фотке такая кьют милашка я не могу, почему так мало таких фоток от тебя", image: "/prizes/chibi3.jpg", rarity: "common" },
+  { id: 1, name: "Твоя нефорская чиби версия", image: `${import.meta.env.BASE_URL}prizes/chibi1.jpg`, rarity: "legendary" },
+  { id: 2, name: "Твоя Иссык Кульская версия", image: `${import.meta.env.BASE_URL}prizes/chibi2.jpg`, rarity: "common" },
+  { id: 3, name: "На оригинальной фотке такая кьют милашка я не могу, почему так мало таких фоток от тебя", image: `${import.meta.env.BASE_URL}prizes/chibi3.jpg`, rarity: "common" },
 
-  { id: 4, name: "Ну думаю понятно почему легендарка", image: "/prizes/chibi4.jpg", rarity: "legendary" },
-  { id: 5, name: "Может вспомнишь что за оригинальная фотка", image: "/prizes/chibi5.jpg", rarity: "common" },
+  { id: 4, name: "Ну думаю понятно почему легендарка", image: `${import.meta.env.BASE_URL}prizes/chibi4.jpg`, rarity: "legendary" },
+  { id: 5, name: "Может вспомнишь что за оригинальная фотка", image: `${import.meta.env.BASE_URL}prizes/chibi5.jpg`, rarity: "common" },
 
-  { id: 6, name: "Я и ананас", image: "/prizes/chibi6.jpg", rarity: "rare" },
-  { id: 7, name: "Милашки", image: "/prizes/chibi7.jpg", rarity: "legendary" },
-  { id: 8, name: "Моя нефорская чиби версия", image: "/prizes/chibi8.jpg", rarity: "common" },
-  { id: 9, name: "Наше фото с годовщины", image: "/prizes/chibi9.jpg", rarity: "rare" },
-  { id: 10, name: "Моя версия в полный рост, как брелок (я всегда рядом с тобой)", image: "/prizes/chibi10.jpg", rarity: "rare" },
-
+  { id: 6, name: "Я и ананас", image: `${import.meta.env.BASE_URL}prizes/chibi6.jpg`, rarity: "rare" },
+  { id: 7, name: "Милашки", image: `${import.meta.env.BASE_URL}prizes/chibi7.jpg`, rarity: "legendary" },
+  { id: 8, name: "Моя нефорская чиби версия", image: `${import.meta.env.BASE_URL}prizes/chibi8.jpg`, rarity: "common" },
+  { id: 9, name: "Наше фото с годовщины", image: `${import.meta.env.BASE_URL}prizes/chibi9.jpg`, rarity: "rare" },
+  { id: 10, name: "Моя версия в полный рост, как брелок (я всегда рядом с тобой)", image: `${import.meta.env.BASE_URL}prizes/chibi10.jpg`, rarity: "rare" },
 ]
 
 const RARITY_WEIGHTS = {
