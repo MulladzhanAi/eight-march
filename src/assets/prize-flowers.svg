@@ -1,0 +1,40 @@
+<svg width="320" height="220" viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE9F2" />
+      <stop offset="1" stop-color="#F6F0FF" />
+    </linearGradient>
+    <linearGradient id="stem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6BC28E" />
+      <stop offset="1" stop-color="#4AA56F" />
+    </linearGradient>
+    <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF9BC4" />
+      <stop offset="1" stop-color="#F25E9D" />
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="300" height="200" rx="36" fill="url(#bg2)" />
+  <g transform="translate(90 40)">
+    <rect x="55" y="70" width="10" height="70" rx="5" fill="url(#stem)" />
+    <rect x="80" y="70" width="10" height="70" rx="5" fill="url(#stem)" />
+    <rect x="30" y="70" width="10" height="70" rx="5" fill="url(#stem)" />
+
+    <circle cx="60" cy="56" r="20" fill="url(#petal)" />
+    <circle cx="35" cy="48" r="18" fill="url(#petal)" />
+    <circle cx="85" cy="48" r="18" fill="url(#petal)" />
+
+    <circle cx="60" cy="56" r="9" fill="#FFE7F5" />
+  </g>
+  <text
+    x="160"
+    y="185"
+    text-anchor="middle"
+    font-family="Quicksand, system-ui"
+    font-weight="600"
+    font-size="16"
+    fill="#7D3E6A"
+  >
+    C:5B B2>8E ;N18<KE F25B>2
+  </text>
+</svg>
+

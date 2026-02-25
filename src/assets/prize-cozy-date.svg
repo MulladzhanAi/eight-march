@@ -1,0 +1,41 @@
+<svg width="320" height="220" viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE3F3" />
+      <stop offset="1" stop-color="#F4E4FF" />
+    </linearGradient>
+    <linearGradient id="heart" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF8BBF" />
+      <stop offset="1" stop-color="#F052A4" />
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="300" height="200" rx="36" fill="url(#bg)" />
+  <circle cx="70" cy="70" r="14" fill="#FFD4EB" />
+  <circle cx="250" cy="60" r="10" fill="#FAD2FF" />
+  <circle cx="260" cy="160" r="13" fill="#FFE5F6" />
+  <path
+    d="M160 160C130 140 94 118 94 92C94 78 104 68 118 68C130 68 141 75 146 84C151 75 162 68 174 68C188 68 198 78 198 92C198 118 162 140 132 160H160Z"
+    fill="url(#heart)"
+  />
+  <rect
+    x="78"
+    y="140"
+    width="164"
+    height="40"
+    rx="18"
+    fill="white"
+    fill-opacity="0.5"
+  />
+  <text
+    x="160"
+    y="165"
+    text-anchor="middle"
+    font-family="Quicksand, system-ui"
+    font-weight="600"
+    font-size="16"
+    fill="#7D3E6A"
+  >
+    "Q?;K9 25G5@ 242>Q<
+  </text>
+</svg>
+
